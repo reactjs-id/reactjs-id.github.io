@@ -1,4 +1,4 @@
-# reactjs-id.github.io
+# react.id
 
 ![screenshot](http://react.id/pictures/screenshot.png)
 
