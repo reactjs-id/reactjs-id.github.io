@@ -145,5 +145,24 @@
             "reactjs",
             "tutorial"
         ]
+    },
+    {
+        "title": "Pengenalan ReactJS",
+        "author": {
+            "name": "Donny Stark",
+            "link": "https://github.com/rromadhoni"
+        },
+        "demo": "https://leanpub.com/pengenalan-reactjs",
+        "code": null,
+        "category": "buku",
+        "picture": "https://s3.amazonaws.com/titlepages.leanpub.com/pengenalan-reactjs/hero?1442381901",
+        "description": "ReactJS adalah framework untuk membangun User Interface yang dibuat oleh Facebook. Akhir-akhir ini Facebook sedang gencar-gencarnya membagikan hasil hacking mereka selama membangun facebook.com",
+        "tag": [
+            "pengenalan",
+            "dasar",
+            "reactjs",
+            "buku",
+            "basic"
+        ]
     }
 ]

@@ -123,7 +123,7 @@ var Footer = function (_React$Component) {
                                 _react2.default.createElement(
                                     'a',
                                     { href: 'https://www.facebook.com/groups/442974152553174/' },
-                                    'ReactJS Indonesia Community'
+                                    'Komunitas ReactJS Indonesia'
                                 )
                             ),
                             _react2.default.createElement(
