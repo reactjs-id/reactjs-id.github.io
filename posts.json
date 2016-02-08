@@ -1,0 +1,149 @@
+[
+    {
+        "title": "QuranHub",
+        "author": {
+            "name": "Donny Stark",
+            "link": "https://github.com/rromadhoni"
+        },
+        "demo": "http://quranhub.xyz/",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/quranhub.png",
+        "description": "Temukan ayat quran favoritmu dan bagikan! Quranhub menggunakan universaljs yang dapat dirender di client maupun di server",
+        "tag": [
+            "isomorphic",
+            "universal",
+            "web",
+            "server-rendering"
+        ]
+    },
+    {
+        "title": "Jende.la",
+        "author": {
+            "name": "Jende.la",
+            "link": "https://github.com/jendela"
+        },
+        "demo": "http://jende.la/",
+        "code": "https://github.com/jendela/jendela",
+        "category": "web",
+        "picture": "pictures/jendela.png",
+        "description": "Jendela adalah wadah Anda untuk menyalurkan aspirasi, kritik dan saran untuk layanan publik di seluruh Indonesia dengan cepat dan mudah.",
+        "tag": [
+            "web",
+            "chart",
+            "parse"
+        ]
+    },
+    {
+        "title": "Sale Stock",
+        "author": {
+            "name": "Sale Stock Engineering",
+            "link": "http://salestock.io"
+        },
+        "demo": "http://salestock.com/",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/salestock.png",
+        "description": "Sale Stock adalah perusahaan teknologi yang menjual baju cantik, kualitas mall, dan harga jujur ke seluruh Indonesia dan bisa bayar di tempat.",
+        "tag": [
+            "isomorphic",
+            "universal",
+            "web",
+            "server-rendering",
+            "flummox",
+            "mobile"
+        ]
+    },
+    {
+        "title": "Traveloka Mobile Web",
+        "author": {
+            "name": "Traveloka",
+            "link": "https://github.com/traveloka"
+        },
+        "demo": "http://m.traveloka.com/",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/traveloka.png",
+        "description": "Traveloka adalah perusahaan teknologi terkemuka di Indonesia yang menyediakan layanan pencarian dan pemesanan tiket pesawat dan hotel secara online.",
+        "tag": [
+            "reactjs",
+            "web",
+            "mobile"
+        ]
+    },
+    {
+        "title": "Ziliun",
+        "author": {
+            "name": "Sonny Lazuardi",
+            "link": "https://github.com/sonnylazuardi"
+        },
+        "demo": "http://bit.ly/ziliun",
+        "code": "https://github.com/sonnylazuardi/ziliun-react-native",
+        "category": "android",
+        "picture": "https://camo.githubusercontent.com/0f27c2e8b9cea7848c4fff255f41b0eb9f28cba3/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d47534167412d6943692d732f566f62626a4c5079536b492f41414141414141414344552f3233483645353356384b772f73302f7a696c69756e2e676966",
+        "description": "Aplikasi Ziliun sebagai aplikasi android dari website ziliun.com (wordpress)",
+        "tag": [
+            "react-native",
+            "android",
+            "aplikasi",
+            "wordpress",
+            "pull-to-refresh"
+        ]
+    },
+    {
+        "title": "Bus In Time",
+        "author": {
+            "name": "Sonny Lazuardi",
+            "link": "https://github.com/sonnylazuardi"
+        },
+        "demo": "https://play.google.com/store/apps/details?id=com.busintime",
+        "code": null,
+        "category": "android",
+        "picture": "pictures/busintime.png",
+        "description": "Bus In Time adalah aplikasi untuk melakukan tracking bus sehingga calon pengguna bus dapat memperkirakan waktu kedatangan bus yang ingin dinaiki tanpa perlu menunggu terlalu lama di halte.",
+        "tag": [
+            "react-native",
+            "android",
+            "aplikasi",
+            "ble",
+            "google-map"
+        ]
+    },
+    {
+        "title": "Nulis JS dengan ES6, Flow, dan Babel",
+        "author": {
+            "name": "Equan Pramudia",
+            "link": "https://medium.com/@junwatu"
+        },
+        "demo": "https://medium.com/@junwatu/nulis-javascript-karo-es6-flow-lan-babel-9f5625c954b5#.73lpkun05",
+        "code": null,
+        "category": "tutorial",
+        "picture": "https://cdn-images-1.medium.com/max/1600/1*g0tpKbakRiYnq66-119LHA.png",
+        "description": "Dadi artikel iki tujuane yo iku yak opo carane nggawe aplikasi JavaScript ECMAScript 2015 utowo luwih dikenal ES6 lan karo dibantu ambek tool Flow sisan. Opo iku Flow?",
+        "tag": [
+            "artikel",
+            "es2015",
+            "reactjs",
+            "tutorial",
+            "flow"
+        ]
+    },
+    {
+        "title": "React & T3",
+        "author": {
+            "name": "Equan Pramudia",
+            "link": "https://medium.com/@junwatu"
+        },
+        "demo": "https://medium.com/@junwatu/react-t3-f6c3e4f748ab#.2gkwg37ui",
+        "code": null,
+        "category": "tutorial",
+        "picture": "https://cdn-images-1.medium.com/max/1600/1*nLTuz8azvW15t3BKsJEucQ.png",
+        "description": "T3 merupakan framework dari Box yang mengedepankan pendekatan modular dan cukup sederhana sebenarnya konsepnya tetapi memang sangat bisa digunakan untuk aplikasi yang scalable di sisi klien",
+        "tag": [
+            "artikel",
+            "T3",
+            "reactjs",
+            "tutorial"
+        ]
+    }
+]
