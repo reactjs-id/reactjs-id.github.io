@@ -45,7 +45,7 @@ class Footer extends React.Component {
                     <div className="copyright" style={{paddingTop: 0}}>
                         <ul>
                             <li>© 2016</li>
-                            <li><a href="https://www.facebook.com/groups/442974152553174/">ReactJS Indonesia Community</a></li>
+                            <li><a href="https://www.facebook.com/groups/442974152553174/">Komunitas ReactJS Indonesia</a></li>
                             <li>Dibangun dengan <a href="http://reactjs.com/" target="_blank">ReactJS</a>.</li>
                         </ul>
                     </div>
