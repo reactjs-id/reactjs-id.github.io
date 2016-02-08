@@ -108,6 +108,19 @@ var Footer = function (_React$Component) {
                     { className: 'content', style: { paddingTop: 0 } },
                     _react2.default.createElement(
                         'div',
+                        { className: '' },
+                        _react2.default.createElement(
+                            'p',
+                            { style: { paddingTop: '20px', textAlign: 'center' } },
+                            _react2.default.createElement(
+                                'a',
+                                { className: 'button', href: 'https://github.com/reactjs-id/reactjs-id.github.io#kontribusi' },
+                                '+ Ingin Kontribusi? Tambah Konten?'
+                            )
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
                         { className: 'copyright', style: { paddingTop: 0 } },
                         _react2.default.createElement(
                             'ul',

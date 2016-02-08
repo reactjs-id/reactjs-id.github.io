@@ -42,6 +42,9 @@ class Footer extends React.Component {
                     
                 </div>
                 <div className="content" style={{paddingTop: 0}}>
+                    <div className="">
+                        <p style={{paddingTop: '20px', textAlign: 'center'}}><a className="button" href="https://github.com/reactjs-id/reactjs-id.github.io#kontribusi">+ Ingin Kontribusi? Tambah Konten?</a></p>
+                    </div>
                     <div className="copyright" style={{paddingTop: 0}}>
                         <ul>
                             <li>© 2016</li>
