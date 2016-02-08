@@ -1,6 +1,6 @@
 # reactjs-id.github.io
 
-![screenshot](react.id/pictures/screenshot.png)
+![screenshot](http://react.id/pictures/screenshot.png)
 
 official website dari ReactJS Indonesia. Website ini berisi segala hal yang berhubungan dengan ReactJS di Indonesia mencakup website di production, tutorial, buku, aplikasi dan lain sebagainya.
 
