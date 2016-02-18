@@ -181,5 +181,24 @@
             "reactjs",
             "basic"
         ]
+    },
+    {
+        "title": "HappyFresh",
+        "author": {
+            "name": "HappyFresh Engineering Team",
+            "link": "http://geek.happyfresh.com/"
+        },
+        "demo": "http://www.happyfresh.id/",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/happyfresh.png",
+        "description": "HappyFresh adalah layanan online grocery pertama di asia tenggara...",
+        "tag": [
+            "web",
+            "reactjs",
+            "rails",
+            "v8",
+            "server-rendering"
+        ]
     }
 ]
