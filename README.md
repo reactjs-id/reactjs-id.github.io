@@ -30,6 +30,11 @@ lalu buka `http://localhost:3100/`
 
 Anda dapat menambahkan item baru pada website dengan membuka Pull Request setelah mengedit file `posts.json`. Pull Request akan direview dan dimerge jika sesuai dengan ketentuan.
 
+## Ketentuan
+
+- sumber berasal dari Indonesia atau dibuat dalam Bahasa Indonesia
+- sumber menggunakan stack ReactJS, Flux (Redux, AltJS), GraphQL, Relay
+
 ## Lisensi
 
 MIT License &copy; 2016 [@sonnylazuardi](http://github.com/sonnylazuardi)
