@@ -164,5 +164,22 @@
             "buku",
             "basic"
         ]
+    },
+    {
+        "title": "Urbanindo - Nusantara Map",
+        "author": {
+            "name": "Urbanindo Engineering Team",
+            "link": "https://github.com/urbanindo"
+        },
+        "demo": "http://www.urbanindo.com/map",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/urbanindo-nusantara-map.png",
+        "description": "Urbanindo - Nusantara adalah tampilan peta untuk jual/beli/sewa properti di indonesia",
+        "tag": [
+            "web",
+            "reactjs",
+            "basic"
+        ]
     }
 ]
