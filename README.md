@@ -32,7 +32,7 @@ Anda dapat menambahkan item baru pada website dengan membuka Pull Request setela
 
 ## Ketentuan
 
-- sumber berasal dari Indonesia atau dibuat dalam Bahasa Indonesia
+- sumber berasal dari Indonesia, dibuat dalam Bahasa Indonesia, atau dibuat oleh orang Indonesia
 - sumber menggunakan stack ReactJS, Flux (Redux, AltJS), GraphQL, Relay
 
 ## Lisensi
