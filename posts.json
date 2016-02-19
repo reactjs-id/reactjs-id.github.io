@@ -200,5 +200,23 @@
             "v8",
             "server-rendering"
         ]
+    },
+    {
+        "title": "Hijup Mobile Web",
+        "author": {
+            "name": "Hijup Engineering Team",
+            "link": "https://github.com/hijup"
+        },
+        "demo": "http://m.hijup.com/",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/hijup.png",
+        "description": "HijUp.com adalah Islamic fashion e-commerce. Dengan konsep online mall, HijUp.com menyediakan berbagai macam produk terbaik karya designer fashion muslimah Indonesia.",
+        "tag": [
+            "web",
+            "reactjs",
+            "rails",
+            "gem"
+        ]
     }
 ]
