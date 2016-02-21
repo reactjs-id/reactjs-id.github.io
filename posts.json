@@ -218,5 +218,40 @@
             "rails",
             "gem"
         ]
+    },
+    {
+        "title": "Bible Redux",
+        "author": {
+            "name": "Sonny Lazuardi",
+            "link": "http://github.com/sonnylazuardi"
+        },
+        "demo": "http://bible.sonnylab.com/",
+        "code": "http://github.com/sonnylazuardi/bible-redux",
+        "category": "web",
+        "picture": "https://camo.githubusercontent.com/b343011c84f526604ce15147b6bc87e76e798181/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d6b71454c324a354b676e6f2f566f6b4d7034716b496d492f41414141414141414344732f516d4d6d4f4e6a397562592f73302f53637265656e2b53686f742b323031362d30312d30332b61742b362e35362e30382b504d2e706e67",
+        "description": "Bible Redux adalah aplikasi web alikitab yang ringan dan cepat menggunakan Redux dan Alkiab API",
+        "tag": [
+            "web",
+            "reactjs",
+            "es2015",
+            "redux",
+            "bible"
+        ]
+    },
+    {
+        "title": "Alkitab Suara",
+        "author": {
+            "name": "Alkitab Suara Team",
+            "link": "http://alkitabsuara.com/"
+        },
+        "demo": "http://alkitabsuara.com",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/alkitabsuara.png",
+        "description": "Alkitab Suara adalah rekaman alkitab yang didramatisir dengan kualitas suara yang tinggi",
+        "tag": [
+            "web",
+            "reactjs"
+        ]
     }
 ]
