@@ -1,23 +1,5 @@
 [
     {
-        "title": "QuranHub",
-        "author": {
-            "name": "Donny Stark",
-            "link": "https://github.com/rromadhoni"
-        },
-        "demo": "http://quranhub.xyz/",
-        "code": null,
-        "category": "web",
-        "picture": "pictures/quranhub.png",
-        "description": "Temukan ayat quran favoritmu dan bagikan! Quranhub menggunakan universaljs yang dapat dirender di client maupun di server",
-        "tag": [
-            "isomorphic",
-            "universal",
-            "web",
-            "server-rendering"
-        ]
-    },
-    {
         "title": "Jende.la",
         "author": {
             "name": "Jende.la",

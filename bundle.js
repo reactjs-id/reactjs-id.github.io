@@ -225,24 +225,20 @@ var Header = function (_React$Component) {
                         _react2.default.createElement(
                             'h1',
                             { className: 'title' },
+                            '1st react.id Meetup'
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            '20 juni 2015 • D\'labs SMDV Jakarta • 19.00'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'center' },
                             _react2.default.createElement(
-                                'span',
-                                { className: 'word-animator' },
-                                _react2.default.createElement(
-                                    'span',
-                                    { className: 'word' },
-                                    'berpikir.'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    { className: 'word' },
-                                    'berbagi.'
-                                ),
-                                _react2.default.createElement(
-                                    'span',
-                                    { className: 'word' },
-                                    'belajar.'
-                                )
+                                'a',
+                                { href: 'http://meetup.com/react-id', target: '_blank', className: 'btn' },
+                                'Daftar Sekarang (Gratis)'
                             )
                         )
                     ),
@@ -378,10 +374,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var styles = {
     header: {
-        background: 'url(img/logo-small.png) no-repeat center center',
+        background: 'url(img/logo-transparent.png) no-repeat center center',
         backgroundSize: 'contain',
-        height: '60px',
-        width: '180px'
+        height: '80px',
+        width: '80px'
     },
     headerParent: {
         width: '180px'

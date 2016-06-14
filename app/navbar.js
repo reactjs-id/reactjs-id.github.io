@@ -2,10 +2,10 @@ import React from 'react';
 
 let styles = {
     header: {
-        background: 'url(img/logo-small.png) no-repeat center center',
+        background: 'url(img/logo-transparent.png) no-repeat center center',
         backgroundSize: 'contain',
-        height: '60px',
-        width: '180px'
+        height: '80px',
+        width: '80px'
     },
     headerParent: {
         width: '180px'

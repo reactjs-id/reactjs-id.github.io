@@ -21,12 +21,16 @@ class Header extends React.Component {
                 <section className="hero add show shown">
                     <div className="entrance-transition title-entrance show">
                         <h1 className="title">
-                            <span className="word-animator">
-                                <span className="word">berpikir.</span>
-                                <span className="word">berbagi.</span>
-                                <span className="word">belajar.</span>
-                            </span>
+                            1st react.id Meetup
                         </h1>
+                        <h3>
+                            20 juni 2015 &bull; D'labs SMDV Jakarta &bull; 19.00
+                        </h3>
+                        <div className="center">
+                            <a href="http://meetup.com/react-id" target="_blank" className="btn">
+                                Daftar Sekarang (Gratis)
+                            </a>
+                        </div>
                     </div>
                     <div className="entrance-transition image-entrance show"><img src="img/logo.png" alt="" className="rimage" /></div>
                     <div className="blog-controls show">
