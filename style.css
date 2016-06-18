@@ -4259,6 +4259,28 @@ p,
     background-size: cover;
 }
 
+.hero-section {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    background: #eee;
+}
+
+.hero-section-2 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #eee;
+    padding-bottom: 200px;
+}
+
+.pendaftar-item: {
+    height: 150px;
+}
+
 .page-blog .hero-transition-manager .hero .blog-controls {
     transition: opacity 0.32s ease-in-out
 }

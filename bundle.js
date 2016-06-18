@@ -204,77 +204,98 @@ var styles = {
 var Header = function (_React$Component) {
     _inherits(Header, _React$Component);
 
-    function Header() {
+    function Header(props) {
         _classCallCheck(this, Header);
 
-        return _possibleConstructorReturn(this, Object.getPrototypeOf(Header).apply(this, arguments));
+        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Header).call(this, props));
+
+        _this.state = {
+            pendaftar: []
+        };
+        return _this;
     }
 
     _createClass(Header, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            axios.get('pendaftar.json').then(function (response) {
+                _this2.setState({
+                    pendaftar: response.data
+                });
+            });
+        }
+    }, {
         key: 'render',
         value: function render() {
+            var pendaftar = [];
+            for (var i = 1; i <= 70; i++) {
+                pendaftar.push(i);
+            }
             return _react2.default.createElement(
                 'div',
-                { className: 'hero-transition-manager' },
+                null,
                 _react2.default.createElement(
-                    'section',
-                    { className: 'hero add show shown' },
+                    'div',
+                    { className: 'hero-transition-manager' },
                     _react2.default.createElement(
-                        'div',
-                        { className: 'entrance-transition title-entrance show' },
-                        _react2.default.createElement(
-                            'h1',
-                            { className: 'title' },
-                            '1st react.id Meetup'
-                        ),
-                        _react2.default.createElement(
-                            'h3',
-                            null,
-                            '20 juni 2015 • D\'labs SMDV Jakarta • 19.00'
-                        ),
+                        'section',
+                        { className: 'hero add show shown' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'center' },
+                            { className: 'entrance-transition title-entrance show' },
                             _react2.default.createElement(
-                                'a',
-                                { href: 'http://meetup.com/react-id', target: '_blank', className: 'btn' },
-                                'Daftar Sekarang (Gratis)'
-                            )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'entrance-transition image-entrance show' },
-                        _react2.default.createElement('img', { src: 'img/logo.png', alt: '', className: 'rimage' })
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'blog-controls show' },
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'blog-filter' },
+                                'h1',
+                                { className: 'title' },
+                                '1st react.id Meetup'
+                            ),
+                            _react2.default.createElement(
+                                'h3',
+                                null,
+                                '20 juni 2015 • D\'labs SMDV Jakarta • 19.00'
+                            ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'selected', style: { padding: 0 } },
+                                { className: 'center' },
                                 _react2.default.createElement(
-                                    'select',
-                                    { ref: 'category', style: styles.select, onChange: this.props.onChange.bind(this) },
-                                    _react2.default.createElement(
-                                        'option',
-                                        { value: '' },
-                                        'Semua Kategori'
-                                    ),
-                                    this.props.categories.map(function (item, i) {
-                                        return _react2.default.createElement(
-                                            'option',
-                                            { key: i, value: item },
-                                            item
-                                        );
-                                    })
+                                    'a',
+                                    { href: '#pendaftar', className: 'btn' },
+                                    'Lihat Pendaftar'
                                 )
                             )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'entrance-transition image-entrance show' },
+                            _react2.default.createElement('img', { src: 'img/logo.png', alt: '', className: 'rimage' })
                         )
                     )
+                ),
+                _react2.default.createElement(
+                    'h3',
+                    null,
+                    'Pendaftar'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'hero-section-2', id: 'pendaftar' },
+                    this.state.pendaftar.map(function (item, i) {
+                        return _react2.default.createElement(
+                            'div',
+                            { className: 'pendaftar-item', style: { width: '230px', margin: '10px', textAlign: 'center', flexDirection: 'row' } },
+                            _react2.default.createElement(
+                                'a',
+                                { href: item.link, target: '_blank' },
+                                _react2.default.createElement('image', { src: item.photo, alt: '', style: { width: '32px', height: '32px' } }),
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'pendaftar-name' },
+                                    item.name
+                                )
+                            )
+                        );
+                    })
                 )
             );
         }
