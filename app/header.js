@@ -43,7 +43,7 @@ class Header extends React.Component {
                                 1st react.id Meetup
                             </h1>
                             <h3>
-                                20 juni 2015 &bull; D'labs SMDV Jakarta &bull; 19.00
+                                20 juni 2016 &bull; D'labs SMDV Jakarta &bull; 19.00
                             </h3>
                             <div className="center">
                                 <a href="#pendaftar" className="btn">
