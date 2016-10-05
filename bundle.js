@@ -27,82 +27,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Footer = function (_React$Component) {
     _inherits(Footer, _React$Component);
 
-    function Footer(props) {
+    function Footer() {
         _classCallCheck(this, Footer);
 
-        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Footer).call(this, props));
-
-        _this.state = {
-            message: null
-        };
-        return _this;
+        return _possibleConstructorReturn(this, Object.getPrototypeOf(Footer).apply(this, arguments));
     }
 
     _createClass(Footer, [{
-        key: 'onSubmit',
-        value: function onSubmit(e) {
-            var _this2 = this;
-
-            e.preventDefault();
-            var email = this.refs.email.value;
-            this.setState({ message: null });
-            _axios2.default.post('https://reactjs-id.herokuapp.com/invite', {
-                email: email,
-                channel: 'react-id',
-                coc: 0
-            }).then(function (response) {
-                _this2.setState({ message: 'Wuut! silakan cek email ' + email + ' :D' });
-            }, function (err) {
-                _this2.setState({ message: err.data.msg });
-            });
-        }
-    }, {
         key: 'render',
         value: function render() {
-            var message = this.state.message;
-
             return _react2.default.createElement(
                 'footer',
                 { className: 'footer', id: 'join-us' },
-                _react2.default.createElement(
-                    'div',
-                    { className: 'subscription' },
-                    _react2.default.createElement('img', { style: { width: '80px', height: '80px', marginBottom: '10px' }, src: 'img/slack.png', alt: '' }),
-                    _react2.default.createElement(
-                        'h2',
-                        null,
-                        'React-ID di Slack'
-                    ),
-                    _react2.default.createElement(
-                        'p',
-                        null,
-                        'Masukkan email Anda untuk mendapatkan undangan dan berdiskusi di Slack.'
-                    ),
-                    _react2.default.createElement(
-                        'form',
-                        { onSubmit: this.onSubmit.bind(this) },
-                        _react2.default.createElement(
-                            'label',
-                            { 'for': 'subscription-email', className: 'label' },
-                            'Masukkan email di sini...'
-                        ),
-                        _react2.default.createElement('input', { ref: 'email', id: 'slack-email', className: 'email', placeholder: 'Enter your email...', required: '' }),
-                        _react2.default.createElement(
-                            'button',
-                            { className: 'submit', type: 'submit' },
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'submit-text' },
-                                'Dapatkan Undangan'
-                            )
-                        )
-                    ),
-                    message ? _react2.default.createElement(
-                        'p',
-                        null,
-                        message
-                    ) : null
-                ),
                 _react2.default.createElement(
                     'div',
                     { className: 'content', style: { paddingTop: 0 } },
@@ -210,20 +146,27 @@ var Header = function (_React$Component) {
         var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Header).call(this, props));
 
         _this.state = {
-            pendaftar: []
+            message: null
         };
         return _this;
     }
 
     _createClass(Header, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
+        key: 'onSubmit',
+        value: function onSubmit(e) {
             var _this2 = this;
 
-            axios.get('pendaftar.json').then(function (response) {
-                _this2.setState({
-                    pendaftar: response.data
-                });
+            e.preventDefault();
+            var email = this.refs.email.value;
+            this.setState({ message: null });
+            axios.post('https://reactjs-id.herokuapp.com/invite', {
+                email: email,
+                channel: 'react-id',
+                coc: 0
+            }).then(function (response) {
+                _this2.setState({ message: 'Wuut! silakan cek email ' + email + ' :D' });
+            }, function (err) {
+                _this2.setState({ message: err.data.msg });
             });
         }
     }, {
@@ -233,6 +176,8 @@ var Header = function (_React$Component) {
             for (var i = 1; i <= 70; i++) {
                 pendaftar.push(i);
             }
+            var message = this.state.message;
+
             return _react2.default.createElement(
                 'div',
                 null,
@@ -248,20 +193,20 @@ var Header = function (_React$Component) {
                             _react2.default.createElement(
                                 'h1',
                                 { className: 'title' },
-                                '1st react.id Meetup'
+                                'React.id Workshop'
                             ),
                             _react2.default.createElement(
                                 'h3',
                                 null,
-                                '20 juni 2015 • D\'labs SMDV Jakarta • 19.00'
+                                '15 October 2016 • Traveloka HQ • 11.00'
                             ),
                             _react2.default.createElement(
                                 'div',
                                 { className: 'center' },
                                 _react2.default.createElement(
                                     'a',
-                                    { href: '#pendaftar', className: 'btn' },
-                                    'Lihat Pendaftar'
+                                    { href: 'https://www.meetup.com/reactindonesia/events/234636840/', target: '_blank', className: 'btn' },
+                                    'Daftar Sekarang (Gratis)'
                                 )
                             )
                         ),
@@ -273,29 +218,43 @@ var Header = function (_React$Component) {
                     )
                 ),
                 _react2.default.createElement(
-                    'h3',
-                    null,
-                    'Pendaftar'
-                ),
-                _react2.default.createElement(
                     'div',
-                    { className: 'hero-section-2', id: 'pendaftar' },
-                    this.state.pendaftar.map(function (item, i) {
-                        return _react2.default.createElement(
-                            'div',
-                            { className: 'pendaftar-item', style: { width: '230px', margin: '10px', textAlign: 'center', flexDirection: 'row' } },
+                    { className: 'subscription', id: 'slack' },
+                    _react2.default.createElement('img', { style: { width: '80px', height: '80px', marginBottom: '10px' }, src: 'img/slack.png', alt: '' }),
+                    _react2.default.createElement(
+                        'h2',
+                        null,
+                        'React-ID di Slack'
+                    ),
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Masukkan email Anda untuk mendapatkan undangan dan berdiskusi di Slack.'
+                    ),
+                    _react2.default.createElement(
+                        'form',
+                        { onSubmit: this.onSubmit.bind(this) },
+                        _react2.default.createElement(
+                            'label',
+                            { 'for': 'subscription-email', className: 'label' },
+                            'Masukkan email di sini...'
+                        ),
+                        _react2.default.createElement('input', { ref: 'email', id: 'slack-email', className: 'email', placeholder: 'Enter your email...', required: '' }),
+                        _react2.default.createElement(
+                            'button',
+                            { className: 'submit', type: 'submit' },
                             _react2.default.createElement(
-                                'a',
-                                { href: item.link, target: '_blank' },
-                                _react2.default.createElement('image', { src: item.photo, alt: '', style: { width: '32px', height: '32px' } }),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'pendaftar-name' },
-                                    item.name
-                                )
+                                'span',
+                                { className: 'submit-text' },
+                                'Dapatkan Undangan'
                             )
-                        );
-                    })
+                        )
+                    ),
+                    message ? _react2.default.createElement(
+                        'p',
+                        null,
+                        message
+                    ) : null
                 )
             );
         }
@@ -444,7 +403,7 @@ var Navbar = function Navbar(props) {
                             { className: 'navigation-link' },
                             _react2.default.createElement(
                                 'a',
-                                { href: '#join-us' },
+                                { href: '#slack' },
                                 'Join Us'
                             )
                         )

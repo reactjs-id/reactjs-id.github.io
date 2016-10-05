@@ -24,7 +24,7 @@ let Navbar = (props) => (
                 <div className="menu">
                     <ul>
                         <li className="navigation-link"><a href="#">Home</a></li>
-                        <li className="navigation-link"><a href="#join-us">Join Us</a></li>
+                        <li className="navigation-link"><a href="#slack">Join Us</a></li>
                     </ul>
                 </div>
             </nav>

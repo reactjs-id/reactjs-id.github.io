@@ -18,36 +18,43 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            pendaftar: [],
+            message: null
         };
     }
-    componentDidMount() {
-        axios.get(`pendaftar.json`)
-            .then(response => {
-                this.setState({
-                    pendaftar: response.data
-                });
-            });
+    onSubmit(e) {
+        e.preventDefault();
+        let email = this.refs.email.value;
+        this.setState({message: null});
+        axios.post(`https://reactjs-id.herokuapp.com/invite`, {
+            email,
+            channel: 'react-id',
+            coc: 0
+        }).then(response => {
+            this.setState({message: `Wuut! silakan cek email ${email} :D`})
+        }, err => {
+            this.setState({message: err.data.msg})
+        });
     }
     render() {
         var pendaftar = [];
         for (var i = 1; i <= 70; i++) {
             pendaftar.push(i);
         }
+        let {message} = this.state;
         return (
             <div>
                 <div className="hero-transition-manager">
                     <section className="hero add show shown">
                         <div className="entrance-transition title-entrance show">
                             <h1 className="title">
-                                1st react.id Meetup
+                                 React.id Workshop
                             </h1>
                             <h3>
-                                20 juni 2015 &bull; D'labs SMDV Jakarta &bull; 19.00
+                                15 October 2016 &bull; Traveloka HQ &bull; 11.00
                             </h3>
                             <div className="center">
-                                <a href="#pendaftar" className="btn">
-                                    Lihat Pendaftar
+                                <a href="https://www.meetup.com/reactindonesia/events/234636840/" target="_blank" className="btn">
+                                    Daftar Sekarang (Gratis)
                                 </a>
                             </div>
                         </div>
@@ -55,18 +62,20 @@ class Header extends React.Component {
                         
                     </section>
                 </div>
-                <h3>Pendaftar</h3>
-                <div className="hero-section-2" id="pendaftar">
-                        {this.state.pendaftar.map((item, i) => {
-                            return (
-                                <div className="pendaftar-item" style={{width: '230px', margin: '10px', textAlign: 'center', flexDirection: 'row'}}>
-                                    <a href={item.link} target="_blank">
-                                        <image src={item.photo} alt="" style={{width: '32px', height: '32px'}}/>
-                                        <div className="pendaftar-name">{item.name}</div>
-                                    </a>
-                                </div>
-                            )
-                        })}
+                <div className="subscription" id="slack">
+                    <img style={{width: '80px', height: '80px', marginBottom: '10px'}} src="img/slack.png" alt=""/>
+                    <h2>React-ID di Slack</h2>
+                    <p>Masukkan email Anda untuk mendapatkan undangan dan berdiskusi di Slack.</p>
+
+                    <form onSubmit={this.onSubmit.bind(this)}>
+                        <label for="subscription-email" className="label">Masukkan email di sini...</label>
+                        <input ref="email" id="slack-email" className="email" placeholder="Enter your email..." required="" />
+                        <button className="submit" type="submit"><span className="submit-text">Dapatkan Undangan</span></button>
+                    </form>
+                    {message ?
+                        <p>{message}</p>
+                        : null}
+                    
                 </div>
             </div>
         );
