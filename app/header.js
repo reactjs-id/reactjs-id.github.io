@@ -47,14 +47,14 @@ class Header extends React.Component {
                     <section className="hero add show shown">
                         <div className="entrance-transition title-entrance show">
                             <h1 className="title">
-                                 React.id Workshop
+                                 Developer Circle from Facebook
                             </h1>
                             <h3>
-                                15 October 2016 &bull; Traveloka HQ &bull; 11.00
+                                26 November 2016 &bull; DILO Malang &bull; 09.00
                             </h3>
                             <div className="center">
-                                <a href="https://www.meetup.com/reactindonesia/events/234636840/" target="_blank" className="btn">
-                                    Daftar Sekarang (Gratis)
+                                <a href="https://fbdevcmalangmeetup.splashthat.com/" target="_blank" className="btn">
+                                    RSVP (Gratis)
                                 </a>
                             </div>
                         </div>

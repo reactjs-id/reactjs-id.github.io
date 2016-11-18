@@ -193,20 +193,20 @@ var Header = function (_React$Component) {
                             _react2.default.createElement(
                                 'h1',
                                 { className: 'title' },
-                                'React.id Workshop'
+                                'Developer Circle from Facebook'
                             ),
                             _react2.default.createElement(
                                 'h3',
                                 null,
-                                '15 October 2016 • Traveloka HQ • 11.00'
+                                '26 November 2016 • DILO Malang • 09.00'
                             ),
                             _react2.default.createElement(
                                 'div',
                                 { className: 'center' },
                                 _react2.default.createElement(
                                     'a',
-                                    { href: 'https://www.meetup.com/reactindonesia/events/234636840/', target: '_blank', className: 'btn' },
-                                    'Daftar Sekarang (Gratis)'
+                                    { href: 'https://fbdevcmalangmeetup.splashthat.com/', target: '_blank', className: 'btn' },
+                                    'RSVP (Gratis)'
                                 )
                             )
                         ),
