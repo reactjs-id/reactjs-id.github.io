@@ -4445,7 +4445,7 @@ p,
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-top: -14vh;
+        margin-top: 30px;
         padding: 0 30px
     }
     .page-blog .blog-post-list .blog-post-list-item:not(.featured) {
