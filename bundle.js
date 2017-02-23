@@ -134,6 +134,13 @@ var styles = {
         color: '#000',
         borderRadius: 0,
         background: '#fff'
+    },
+    image: {
+        background: 'url(img/fb_post.png) no-repeat center center',
+        backgroundSize: 'contain',
+        height: '400px',
+        width: '500px',
+        marginBottom: '30px'
     }
 };
 
@@ -189,25 +196,12 @@ var Header = function (_React$Component) {
                         { className: 'hero add show shown' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'entrance-transition title-entrance show' },
+                            { className: 'center' },
+                            _react2.default.createElement('div', { className: 'image', style: styles.image }),
                             _react2.default.createElement(
-                                'h1',
-                                { className: 'title' },
-                                'Developer Circle from Facebook'
-                            ),
-                            _react2.default.createElement(
-                                'h3',
-                                null,
-                                '26 November 2016 • DILO Malang • 09.00'
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'center' },
-                                _react2.default.createElement(
-                                    'a',
-                                    { href: 'https://fbdevcmalangmeetup.splashthat.com/', target: '_blank', className: 'btn' },
-                                    'RSVP (Gratis)'
-                                )
+                                'a',
+                                { href: 'http://live.hacktiv8.com/reactid-march-2017-meetup/', target: '_blank', className: 'btn' },
+                                'Lihat Event'
                             )
                         ),
                         _react2.default.createElement(

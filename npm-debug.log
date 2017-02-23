@@ -1,37 +1,24 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'server' ]
-2 info using npm@2.14.7
-3 info using node@v4.2.2
-4 verbose run-script [ 'preserver', 'server', 'postserver' ]
-5 info preserver react-id@0.0.1
-6 info server react-id@0.0.1
-7 verbose unsafe-perm in lifecycle true
-8 info react-id@0.0.1 Failed to exec server script
-9 verbose stack Error: react-id@0.0.1 server: `python -m SimpleHTTPServer 3100`
-9 verbose stack Exit status 1
-9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
-9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:818:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid react-id@0.0.1
-11 verbose cwd /Users/sonnylazuardi/Documents/projects/reactjs-id.github.io
-12 error Darwin 15.6.0
-13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "server"
-14 error node v4.2.2
-15 error npm  v2.14.7
-16 error code ELIFECYCLE
-17 error react-id@0.0.1 server: `python -m SimpleHTTPServer 3100`
-17 error Exit status 1
-18 error Failed at the react-id@0.0.1 server script 'python -m SimpleHTTPServer 3100'.
-18 error This is most likely a problem with the react-id package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     python -m SimpleHTTPServer 3100
-18 error You can get their info via:
-18 error     npm owner ls react-id
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'watch' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose stack Error: missing script: watch
+4 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:311:12
+4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:455:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+5 verbose cwd /Users/sonnylazuardi/Documents/projects/reactjs-id.github.io
+6 error Darwin 15.6.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "watch"
+8 error node v6.9.5
+9 error npm  v3.10.10
+10 error missing script: watch
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]

@@ -11,6 +11,13 @@ var styles = {
         color: '#000',
         borderRadius: 0,
         background: '#fff'
+    },
+    image: {
+        background: 'url(img/fb_post.png) no-repeat center center',
+        backgroundSize: 'contain',
+        height: '400px',
+        width: '500px',
+        marginBottom: '30px' 
     }
 };
 
@@ -45,21 +52,13 @@ class Header extends React.Component {
             <div>
                 <div className="hero-transition-manager">
                     <section className="hero add show shown">
-                        <div className="entrance-transition title-entrance show">
-                            <h1 className="title">
-                                 Developer Circle from Facebook
-                            </h1>
-                            <h3>
-                                26 November 2016 &bull; DILO Malang &bull; 09.00
-                            </h3>
-                            <div className="center">
-                                <a href="https://fbdevcmalangmeetup.splashthat.com/" target="_blank" className="btn">
-                                    RSVP (Gratis)
-                                </a>
-                            </div>
+                        <div className="center">
+                            <div className="image" style={styles.image}/>
+                            <a href="http://live.hacktiv8.com/reactid-march-2017-meetup/" target="_blank" className="btn">
+                                Lihat Event
+                            </a>
                         </div>
                         <div className="entrance-transition image-entrance show"><img src="img/logo.png" alt="" className="rimage" /></div>
-                        
                     </section>
                 </div>
                 <div className="subscription" id="slack">

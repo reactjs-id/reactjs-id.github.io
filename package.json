@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "watchify app/main.js -o bundle.js -v",
+    "build": "babel app/main.js -o bundle.js",
     "server": "python -m SimpleHTTPServer 3100"
   },
   "keywords": [
