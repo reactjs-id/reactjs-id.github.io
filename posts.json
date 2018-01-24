@@ -235,5 +235,24 @@
             "web",
             "reactjs"
         ]
+    },
+    {
+        "title": "Kompetisi Id",
+        "author": {
+            "name": "IdMore Team",
+            "link": "https://byidmore.com"
+        },
+        "demo": "https://kompetisi.id",
+        "code": null,
+        "category": "web",
+        "picture": "pictures/kompetisiid.png",
+        "description": "Kompetisi Id adalah platform kompetisi yang khusus diadakan untuk Warga Negara Indonesia, Selalu ada hadiah disini.",
+        "tag": [
+            "web",
+            "reactjs",
+            "redux",
+            "nodejs",
+            "isomorphic"
+        ]
     }
 ]

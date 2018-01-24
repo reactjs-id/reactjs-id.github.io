@@ -30,7 +30,7 @@ var Footer = function (_React$Component) {
     function Footer() {
         _classCallCheck(this, Footer);
 
-        return _possibleConstructorReturn(this, Object.getPrototypeOf(Footer).apply(this, arguments));
+        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
     }
 
     _createClass(Footer, [{
@@ -64,7 +64,7 @@ var Footer = function (_React$Component) {
                             _react2.default.createElement(
                                 'li',
                                 null,
-                                '© 2016'
+                                '\xA9 2016'
                             ),
                             _react2.default.createElement(
                                 'li',
@@ -150,7 +150,7 @@ var Header = function (_React$Component) {
     function Header(props) {
         _classCallCheck(this, Header);
 
-        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Header).call(this, props));
+        var _this = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this, props));
 
         _this.state = {
             message: null
@@ -298,7 +298,7 @@ var Hello = function (_Component) {
     function Hello() {
         _classCallCheck(this, Hello);
 
-        return _possibleConstructorReturn(this, Object.getPrototypeOf(Hello).apply(this, arguments));
+        return _possibleConstructorReturn(this, (Hello.__proto__ || Object.getPrototypeOf(Hello)).apply(this, arguments));
     }
 
     _createClass(Hello, [{
@@ -451,7 +451,7 @@ var Post = function (_React$Component) {
     function Post(props) {
         _classCallCheck(this, Post);
 
-        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Post).call(this, props));
+        var _this = _possibleConstructorReturn(this, (Post.__proto__ || Object.getPrototypeOf(Post)).call(this, props));
 
         _this.state = {
             posts: [],
@@ -483,10 +483,10 @@ var Post = function (_React$Component) {
     }, {
         key: 'render',
         value: function render() {
-            var _state = this.state;
-            var posts = _state.posts;
-            var categories = _state.categories;
-            var currentCategory = _state.currentCategory;
+            var _state = this.state,
+                posts = _state.posts,
+                categories = _state.categories,
+                currentCategory = _state.currentCategory;
 
             if (currentCategory) {
                 posts = posts.filter(function (item) {
