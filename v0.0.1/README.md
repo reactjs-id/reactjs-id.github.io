@@ -1,26 +1,31 @@
 # react.id
 
+![screenshot](http://react.id/pictures/screenshot.jpg)
+
 official website dari ReactJS Indonesia. Website ini berisi segala hal yang berhubungan dengan ReactJS di Indonesia mencakup website di production, tutorial, buku, aplikasi dan lain sebagainya.
+
 
 ## Panduan Instalasi
 
 Clone repo ini, lalu pada terminal pindah ke direktori repo lalu lakukan hal berikut
 
 ```
-yarn
+npm install
+```
+
+Untuk melakukan build dan watch perubahan file ketik perintah berikut
+
+```
+npm start
 ```
 
 Untuk menjalankan aplikasi pada localhost
 
 ```
-yarn web
+npm run server
 ```
 
-Untuk melakukan build project
-
-```
-expo build
-```
+lalu buka `http://localhost:3100/`
 
 ## Kontribusi
 

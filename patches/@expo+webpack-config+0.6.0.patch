@@ -1,0 +1,23 @@
+diff --git a/node_modules/@expo/webpack-config/webpack/webpack.common.js b/node_modules/@expo/webpack-config/webpack/webpack.common.js
+index 358f0ff..c41d0f4 100644
+--- a/node_modules/@expo/webpack-config/webpack/webpack.common.js
++++ b/node_modules/@expo/webpack-config/webpack/webpack.common.js
+@@ -364,12 +364,12 @@ module.exports = async function(env = {}, argv) {
+         ROOT_ID: rootId,
+       }),
+ 
+-      new WebpackPWAManifestPlugin(config, {
+-        publicPath,
+-        noResources: isDev || !env.pwa,
+-        filename: locations.production.manifest,
+-        HtmlWebpackPlugin,
+-      }),
++      // new WebpackPWAManifestPlugin(config, {
++      //   publicPath,
++      //   noResources: isDev || !env.pwa,
++      //   filename: locations.production.manifest,
++      //   HtmlWebpackPlugin,
++      // }),
+ 
+       // This gives some necessary context to module not found errors, such as
+       // the requesting resource.

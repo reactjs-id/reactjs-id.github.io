@@ -1,0 +1,48 @@
+{
+  "name": "react-id",
+  "version": "0.0.1",
+  "description": "official website of react.id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "watchify app/main.js -o bundle.js -v",
+    "build": "babel app/main.js -o bundle.js",
+    "server": "python -m SimpleHTTPServer 3100"
+  },
+  "keywords": [
+    "reactjs",
+    "babel",
+    "es2015",
+    "indonesia",
+    "reactid"
+  ],
+  "author": "sonnylazuardi",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify-shim": "^3.8.12",
+    "watchify": "^3.7.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "react",
+            "es2015"
+          ]
+        }
+      ],
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "react": "global:React",
+    "react-dom": "global:ReactDOM",
+    "axios": "global:axios",
+    "underscore": "global:_"
+  }
+}
