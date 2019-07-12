@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "0ab6d0b68ff0f70fc75e",
-    "url": "/static/js/2.b543e39d.chunk.js"
+    "revision": "cea3ade198225bebe29f",
+    "url": "/static/js/2.a925d966.chunk.js"
   },
   {
-    "revision": "4c3d83ad8ea823175a09",
-    "url": "/static/js/app.bcdeaf40.chunk.js"
+    "revision": "4c8c91d89165a0cf79c6",
+    "url": "/static/js/app.86b261ed.chunk.js"
   },
   {
     "revision": "d0c694b562b2208635f250762cd7fc79",
     "url": "/serve.json"
   },
   {
-    "revision": "4e4e1e7b54bb31528d231215f128035e",
+    "revision": "8e9a8c7e3a7440d81d35e3da062023df",
     "url": "/index.html"
   },
   {

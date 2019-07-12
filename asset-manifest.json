@@ -1,7 +1,7 @@
 {
   "runtime~app.js": "/static/js/runtime~app.806c72c6.js",
-  "app.js": "/static/js/app.bcdeaf40.chunk.js",
-  "static/js/2.b543e39d.chunk.js": "/static/js/2.b543e39d.chunk.js",
+  "app.js": "/static/js/app.86b261ed.chunk.js",
+  "static/js/2.a925d966.chunk.js": "/static/js/2.a925d966.chunk.js",
   "fonts/AntDesign.ttf": "/./fonts/AntDesign.ttf",
   "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
   "fonts/Feather.ttf": "/./fonts/Feather.ttf",
@@ -13,10 +13,11 @@
   "fonts/SimpleLineIcons.ttf": "/./fonts/SimpleLineIcons.ttf",
   "favicon.ico": "/favicon.ico",
   "index.html": "/index.html",
-  "precache-manifest.ce0de72a16aadae1f97862f579a6627c.js": "/precache-manifest.ce0de72a16aadae1f97862f579a6627c.js",
-  "precache-manifest.ce0de72a16aadae1f97862f579a6627c.js.gz": "/precache-manifest.ce0de72a16aadae1f97862f579a6627c.js.gz",
+  "precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js": "/precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js",
+  "precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js.gz": "/precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js.gz",
   "serve.json": "/serve.json",
   "service-worker.js": "/service-worker.js",
-  "static/js/2.b543e39d.chunk.js.gz": "/static/js/2.b543e39d.chunk.js.gz",
+  "static/js/2.a925d966.chunk.js.gz": "/static/js/2.a925d966.chunk.js.gz",
+  "static/js/app.86b261ed.chunk.js.gz": "/static/js/app.86b261ed.chunk.js.gz",
   "static/js/runtime~app.806c72c6.js.gz": "/static/js/runtime~app.806c72c6.js.gz"
 }

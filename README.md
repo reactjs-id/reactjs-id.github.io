@@ -33,4 +33,4 @@ Anda dapat menambahkan item baru pada website dengan membuka Pull Request setela
 
 ## Lisensi
 
-MIT License &copy; 2016 [@sonnylazuardi](http://github.com/sonnylazuardi)
+MIT License &copy; 2019 [@sonnylazuardi](http://github.com/sonnylazuardi)

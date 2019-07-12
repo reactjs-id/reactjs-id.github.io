@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo web typescript",
-    "slug": "expo-web-typescript",
+    "name": "Komunitas ReactJS Indonesia",
+    "slug": "komunitas-reactjs-indonesia",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": ["android", "ios", "web"],
