@@ -1,6 +1,6 @@
 {
   "runtime~app.js": "/static/js/runtime~app.806c72c6.js",
-  "app.js": "/static/js/app.86b261ed.chunk.js",
+  "app.js": "/static/js/app.982976c5.chunk.js",
   "static/js/2.a925d966.chunk.js": "/static/js/2.a925d966.chunk.js",
   "fonts/AntDesign.ttf": "/./fonts/AntDesign.ttf",
   "fonts/Entypo.ttf": "/./fonts/Entypo.ttf",
@@ -13,11 +13,11 @@
   "fonts/SimpleLineIcons.ttf": "/./fonts/SimpleLineIcons.ttf",
   "favicon.ico": "/favicon.ico",
   "index.html": "/index.html",
-  "precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js": "/precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js",
-  "precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js.gz": "/precache-manifest.3bd32479126da2f418bfd5807ac34dbe.js.gz",
+  "precache-manifest.96cfce722e7ebacca45412aa7364952d.js": "/precache-manifest.96cfce722e7ebacca45412aa7364952d.js",
+  "precache-manifest.96cfce722e7ebacca45412aa7364952d.js.gz": "/precache-manifest.96cfce722e7ebacca45412aa7364952d.js.gz",
   "serve.json": "/serve.json",
   "service-worker.js": "/service-worker.js",
   "static/js/2.a925d966.chunk.js.gz": "/static/js/2.a925d966.chunk.js.gz",
-  "static/js/app.86b261ed.chunk.js.gz": "/static/js/app.86b261ed.chunk.js.gz",
+  "static/js/app.982976c5.chunk.js.gz": "/static/js/app.982976c5.chunk.js.gz",
   "static/js/runtime~app.806c72c6.js.gz": "/static/js/runtime~app.806c72c6.js.gz"
 }
